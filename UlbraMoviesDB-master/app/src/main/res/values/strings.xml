@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MoviesDB</string>
+    <string name="title_popular">Populares</string>
+    <string name="title_toprated">Melhor avaliados</string>
+    <string name="title_favorites">Favoritos</string>
+    <string name="movie_details">Detalhes do filme</string>
+    <string name="popularity">Popularidade</string>
+    <string name="add_favoritos">Adicionar aos favoritos</string>
+    <string name="del_favoritos">Remover dos favoritos</string>
+    <string name="sem_favoritos">Sem favoritos adicionados.</string>
+    <string name="ver_similares">Ver similares</string>
+    <string name="similares">Similares</string>
+    <string name="filme">Filme</string>
+</resources>

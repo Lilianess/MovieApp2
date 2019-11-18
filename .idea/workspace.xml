@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b61cd25-6399-4620-9b28-c49d9b9155b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMovies18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/CriarBanco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MovieDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MovieListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/SimilaresActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/ui/favorites/FavoritesFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/ui/favorites/FavoritesViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/ui/popular/PopularFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/ui/popular/PopularViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/ui/toprated/TopratedFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/ui/toprated/TopratedViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/drawable/ic_home_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/drawable/ic_notifications_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/activity_movie_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/activity_similares.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/fragment_favorites.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/fragment_popular.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/fragment_toprated.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/movie_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/test/java/br/moviesdb/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.33.15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.33.20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.33.26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.33.30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.33.48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.34.00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UlbraMoviesDB-master/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UlbraMovies18.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/CriarBanco.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/activity_movie_detail.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/activity_similares.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/fragment_favorites.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/menu/bottom_nav_menu.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/movie_item.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/drawable/ic_launcher_background.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/ulbra/moviesdb/MovieListAdapter.java" />
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MovieListAdapter.java" />
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/CriarBanco.java" />
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MainActivity.java" />
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/Movie.java" />
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MovieDetailActivity.java" />
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MovieService.java" />
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/SimilaresActivity.java" />
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/src/test/java/br/ulbra/ramon/prof/moviesdb/ExampleUnitTest.java" />
+        <option value="$PROJECT_DIR$/UlbraMoviesDB-master/app/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1152" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="moviesdb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="moviesdb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UlbraMovies18" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="UlbraMoviesDB-master" type="462c0819:PsiDirectoryNode" />
+              <item name="mockup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UlbraMovies18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Liliane\AndroidStudioProjects\UlbraMovies18\UlbraMoviesDB-master\app\src\test\java\br" />
+      <recent name="C:\Users\Liliane\AndroidStudioProjects\UlbraMovies18\UlbraMoviesDB-master\app\src\main\java\br" />
+      <recent name="C:\Users\Liliane\AndroidStudioProjects\UlbraMovies18\UlbraMoviesDB-master\app\src\main\java\br\ulbra" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b61cd25-6399-4620-9b28-c49d9b9155b2" name="Default Changelist" comment="" />
+      <created>1574093542453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574093542453</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33522266" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.1687389" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.33.15.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.33.20.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.33.26.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.33.30.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.33.48.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/mockup/Captura de Tela 2019-11-11 às 04.34.00.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MovieDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1212">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MovieListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/MovieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1343">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/SimilaresActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-773">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/test/java/br/moviesdb/ExampleUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMovies18.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/java/br/moviesdb/CriarBanco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/activity_movie_detail.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/activity_similares.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/fragment_favorites.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/menu/bottom_nav_menu.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/movie_item.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/drawable/ic_launcher_background.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UlbraMoviesDB-master/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
